@@ -9,6 +9,7 @@ int main (int argc, char const* argv[]) {
     printf("sizeof(long): %lu\n", sizeof(long));
     printf("sizeof(float): %lu\n", sizeof(float));
     printf("sizeof(double): %lu\n", sizeof(double));
+    printf("sizeof(void): %lu\n", sizeof(void));
     printf("\n");
     printf("sizeof(char*): %lu\n", sizeof(char*));
     // printf("sizeof(bool*): %lu\n", sizeof(bool*)); // C doesn't have bool ?
@@ -17,4 +18,5 @@ int main (int argc, char const* argv[]) {
     printf("sizeof(long*): %lu\n", sizeof(long*));
     printf("sizeof(float*): %lu\n", sizeof(float*));
     printf("sizeof(double*): %lu\n", sizeof(double*));
+    printf("sizeof(void*): %lu\n", sizeof(void*));
 }

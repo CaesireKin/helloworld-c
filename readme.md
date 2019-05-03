@@ -8,13 +8,13 @@ If you wish to complie at your own system, please make sure you have create the 
 
 In 64bit OS
 ```
-This is a type test writen by Jon
 sizeof(char): 1
 sizeof(short): 2
 sizeof(int): 4
 sizeof(long): 8
 sizeof(float): 4
 sizeof(double): 8
+sizeof(void): 1
 
 sizeof(char*): 8
 sizeof(short*): 8
@@ -22,6 +22,7 @@ sizeof(int*): 8
 sizeof(long*): 8
 sizeof(float*): 8
 sizeof(double*): 8
+sizeof(void*): 8
 ```
 
 In 32bit OS (Raspberry Pi)
